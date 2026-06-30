@@ -4,3 +4,4 @@ const uhrElement=document.getElementById('uhr');
      let zeitText = jetzt.toLocaleTimeString();
      uhrElement.innerText = zeitText;
  }
+setInterval(zeigezeit  , 1000);
